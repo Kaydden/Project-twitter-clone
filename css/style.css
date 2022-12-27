@@ -6,10 +6,6 @@
   list-style: none;
   text-decoration: none;
 }
-html {
-  position: relative;
-  min-height: 100%;
-}
 body {
   background-color: #1d2329da;
   height: 100%;
@@ -67,6 +63,10 @@ body {
   font-size: 1em;
   letter-spacing: 0.016rem;
 }
+.acc-btn:hover {
+  background-color: rgba(255, 255, 255, 0.788);
+  cursor: pointer;
+}
 .acc-login {
   width: 18.7;
   height: 2rem;
@@ -119,24 +119,4 @@ body {
 }
 .manual-login a {
   margin-left: 3px;
-}
-@media screen and (max-width:767px) {
-  body {
-    background-color: #000;
-  }
-}
-@media screen and (min-width:768px) and (max-width:1023px) {
-  html {
-    position: relative;
-    min-height: 100%;
-  }
-  body {
-    height: 100%;
-  }
-  .top {
-    overflow: hidden;
-  }
-  .login-area {
-    overflow: hidden;
-  }
 }
