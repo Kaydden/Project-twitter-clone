@@ -3,6 +3,15 @@ const express = require("express"),
 
 const passportGoogle = require("../auth/google");
 
+router.get('/', (req, res) => {
+    //Dado que você envia na hora de renderizar a página, é MUITO UTIL.
+    const data = {
+        title: 'hellooooo!'
+    }
+
+    res.render("index", data);
+});
+
 /**
  * Criar botão para rota
  */
