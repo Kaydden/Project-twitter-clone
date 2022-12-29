@@ -1,9 +1,11 @@
 const passport = require("passport"),
   GoogleStrategy = require("passport-google-oauth").OAuth2Strategy;
 
+const dotenv = require("dotenv")
+
 passport.use(new GoogleStrategy({
-  clientID: process.env.GoogleClientID,
-  clientSecret: process.env.GoogleClientSecret,
+  clientID: process.env.GOOGLE_CLIENT_ID,
+  clientSecret: process.env.GOOGLE_CLIENT_SECRET,
   callbackURL: "http://localhost:5000/google/callback"
 },
   function (accessToken, refreshToken, profile, cb) {
