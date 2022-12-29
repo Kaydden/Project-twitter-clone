@@ -26,6 +26,7 @@ body {
   background: #000;
 }
 .login-area {
+  text-decoration: none;
   width: 37.5rem;
   height: 29rem;
   display: flex;
@@ -45,6 +46,7 @@ body {
   height: 2.5rem;
   background-color: #f8f8f8;
   outline: none;
+  color: #000;
   font-weight: bold;
   border: 1px solid rgb(211, 210, 210);
   border-radius: 1.25rem;
@@ -59,9 +61,13 @@ body {
   width: 1.18rem;
   margin: 0.5rem;
 }
+.acc-btn a {
+  color: #000;
+}
 .acc-btn span {
   font-size: 1em;
   letter-spacing: 0.016rem;
+  color: #000;
 }
 .acc-btn:hover {
   background-color: rgba(255, 255, 255, 0.788);

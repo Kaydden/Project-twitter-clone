@@ -1,0 +1,30 @@
+{
+  "name": "project-twitter-clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luarrekcah/Project-twitter-clone.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luarrekcah/Project-twitter-clone/issues"
+  },
+  "homepage": "https://github.com/luarrekcah/Project-twitter-clone#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "http-errors": "^2.0.0",
+    "passport": "^0.6.0",
+    "passport-google-oauth": "^2.0.0",
+    "path": "^0.12.7"
+  }
+}
